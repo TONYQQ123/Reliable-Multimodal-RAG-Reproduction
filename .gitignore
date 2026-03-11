@@ -1,0 +1,41 @@
+# wandb
+wandb/
+
+# dataset
+data/
+!data/.gitkeep
+
+# model checkpoints
+checkpoint/
+checkpoints/
+!checkpoint/.gitkeep
+!checkpoints/.gitkeep
+
+# training logs / outputs
+logs/
+result/
+
+# logs
+*.log
+
+# build files
+llava.egg-info/
+dist/
+build/
+
+# python
+__pycache__/
+*.pyc
+
+# inference output
+inference/
+
+# open_clip (large submodule)
+retrieve/open_clip/
+
+# backup
+backup/
+
+# system
+.DS_Store
+Thumbs.db
